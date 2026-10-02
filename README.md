@@ -37,6 +37,10 @@ This is an interactive frontend demo. Prices and fees are illustrative. Wallet c
 
 Publish the contents of `dist` using a static web host. No build step or dependencies are required. Google Fonts are loaded when available, with fallback fonts otherwise.
 
+A manual GitHub Pages workflow is prepared in `.github/workflows/deploy.yml`. After Pages is enabled with GitHub Actions as its source, run **Actions → Deploy Aggregate → Run workflow**.
+
+Deployment is currently blocked: GitHub rejected Pages for this private repository under the account’s current plan. Keeping the source private requires a compatible GitHub plan or another host. Making the repository public requires owner approval. The prepared workflow has not been run.
+
 ## Check JavaScript
 
 ```sh
